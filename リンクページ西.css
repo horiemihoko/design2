@@ -2,7 +2,7 @@
 /* CSS Document */
 body{
 width:100%;
-height:2600px;
+height:2800px;
 background-color:rgb(50,140,45)
 }
 /*ヘッダー（東西南北）*/
@@ -122,10 +122,9 @@ padding-left:25px;
 
 h2{
 font-size: 12px;
+padding-top: 95px;
 width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
-
-
