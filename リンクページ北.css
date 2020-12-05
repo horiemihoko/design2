@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+width:750px;
+width:100%;
+height:2600px;
+background-color:rgb(185,80,35)
+}
+
+/*ヘッダー（東西南北）*/
+.header-list {
+ list-style:none; 
+ padding-right:30px;
+ padding-top:30px;
+ padding-bottom:100px; 
+ float:right;
+ display: flex;
+ flex-wrap:wrap;
+}
+
+.header li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+}
+.header li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+
+
+
+.header-list a{
+padding-left: 50px;	
+}
+
+/* マウスオーバー時 */
+.rink-kita:hover, .rink-kita:focus, .rink-kita:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/* マウスオーバー時 */
+.rink-minami:hover, .rink-minami:focus, .rink-minami:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/* マウスオーバー時 */
+.rink-higasi:hover, .rink-higasi:focus, .rink-higasi:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/* マウスオーバー時 */
+.rink-nisi:hover, .rink-nisi:focus, .rink-nisi:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/*homeボタン*/
+.header-logo{
+ 
+ float:left;
+ padding-left:25px; 
+ padding-top:30px;
+
+
+}
+
+/* マウスオーバー時 */
+.header-logo:hover, .header-logo:focus, .header-logo:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
+
+/*メイン（トップpと揃える）*/
+
+.main{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.taitle-contents{
+position: relative;
+top:50px;
+left:25px;
+
+}
+
+
+.contents-item1{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top:50px;
+padding-left:25px;
+
+}
+
+.contents-item{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top:20px;
+padding-left:25px;
+}
+
+
+h2{
+font-size: 12px;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
