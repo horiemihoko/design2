@@ -18,7 +18,9 @@ height:4000px;
 /*ヘッダー（東西南北）*/
 .header-list{
  list-style:none; 
- 
+ padding-right:30px;
+ padding-top:30px;
+ padding-bottom:100px; 
  float:right;
  display: flex;
  flex-wrap:wrap;
@@ -144,8 +146,8 @@ position:relative;
 
 .rink1 {
 position: absolute; 
-padding-left:450px;
-padding-top:1260px;
+left:700px;
+top:2600px;
 font-family: 'ヒラギノ角ゴシック W2';
 color: antiquewhite;
 }
