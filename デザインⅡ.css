@@ -2,11 +2,19 @@
 /* CSS Document */
 /*画面サイズ*/
 body{
-width:800px;
+width:750px;
+width:100%;
 height:4000px;
 
 
 }
+
+@media screen and (min-width:781px){
+  /*画面幅が781px以上の時*/
+
+}
+
+
 /*ヘッダー（東西南北）*/
 .header-list{
  list-style:none; 
@@ -16,6 +24,7 @@ height:4000px;
  float:right;
  display: flex;
  flex-wrap:wrap;
+
 }
 
 .header li {
@@ -95,44 +104,36 @@ padding-left: 50px;
  display: flex;
  flex-direction: column;
  align-items: center;
- top:30px;
- padding-left:25px;
- padding-bottom:20px;
+ width: 100%;
+ top:100px;
 }
 
 
-.taitle-contents h1{
- 
- position:absolute;
- left:250px;
- bottom:100px;
- font-family:'vdl-logojrblack';
- font-size:70px;
- line-height:30px;
-/*縦書き指定*/
- writing-mode:vertical-rl;
- color:black;
- }
 
-.taitle-contents p{
- padding-top:40px;
- font-family:'vdl-logojrblack';
- font-size:70px;
- line-height:10px;
+.main img{
+	ext-align: center;
+	margin: 0 auto;
+	width: 100%;
+	position: static;
+
 }
-
 .contents-item1{
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-left:10px;
+
+
+}
+
+.contents-item1 img{
+width: 100%;
 }
 
 .contents {
 display: flex;
 flex-direction: column;
 align-items: center;
-padding-top:100px;
+padding-top:150px;
 padding-left:25px;
 }
 
@@ -145,8 +146,8 @@ position:relative;
 
 .rink1 {
 position: absolute; 
-left:590px;
-top:2335px;
+left:700px;
+top:2600px;
 font-family: 'ヒラギノ角ゴシック W2';
 color: antiquewhite;
 }
@@ -158,8 +159,8 @@ position:relative;
 }
 .rink2 {
 position: absolute; 
-left:580px;
-top:3100px;
+left:700px;
+top:3380px;
 font-family: 'ヒラギノ角ゴシック W2';
 }
 
@@ -169,8 +170,8 @@ position:relative;
 }
 .rink3 {
 position: absolute; 
-left:590px;
-top:3890px;
+left:700px;
+top:4150px;
 font-family: 'ヒラギノ角ゴシック W2';
 }
 
@@ -180,8 +181,8 @@ position:relative;
 }
 .rink4 {
 position: absolute; 
-left:590px;
-top:4645px;
+left:700px;
+top:4910px;
 font-family: 'ヒラギノ角ゴシック W2';
 }
 
@@ -199,8 +200,10 @@ padding: 100px 25px;
 
 h6{
 font-size: 12px;
-padding-left: 300px;
-padding-top: 100px;
+position:relative;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 
