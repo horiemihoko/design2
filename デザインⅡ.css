@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/* CSS Document */
+/*画面サイズ*/
+body{
+width:750px;
+height:4000px;
+
+
+}
+/*ヘッダー（東西南北）*/
+.header-list{
+ list-style:none; 
+ padding-right:30px;
+ padding-top:30px;
+ padding-bottom:100px; 
+ float:right;
+ display: flex;
+ flex-wrap:wrap;
+}
+
+.header li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+}
+.header li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+
+
+
+.header-list a{
+padding-left: 50px;	
+}
+
+/* マウスオーバー時 */
+.rink-kita:hover, .rink-kita:focus, .rink-kita:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/* マウスオーバー時 */
+.rink-minami:hover, .rink-minami:focus, .rink-minami:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/* マウスオーバー時 */
+.rink-higasi:hover, .rink-higasi:focus, .rink-higasi:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/* マウスオーバー時 */
+.rink-nisi:hover, .rink-nisi:focus, .rink-nisi:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/*homeボタン*/
+.header-logo{
+ 
+ float:left;
+ padding-left:25px; 
+ padding-top:30px;
+
+
+}
+
+/* マウスオーバー時 */
+.header-logo:hover, .header-logo:focus, .header-logo:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
+
+
+/*フッター*/
+
+/*タイトル装飾*/
+.taitle-contents img{
+ position:relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ top:30px;
+ padding-left:25px;
+ padding-bottom:20px;
+}
+
+
+.taitle-contents h1{
+ 
+ position:absolute;
+ left:250px;
+ bottom: 20px;
+ font-family:'vdl-logojrblack';
+ font-size:70px;
+ line-height:30px;
+/*縦書き指定*/
+ writing-mode:vertical-rl;
+ color:black;
+ }
+
+.taitle-contents p{
+ padding-top:40px;
+ font-family:'vdl-logojrblack';
+ font-size:70px;
+ line-height:10px;
+}
+
+.contents-item1{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left:10px;
+}
+
+.contents {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top:100px;
+padding-left:25px;
+}
+
+
+
+.contents-item2 {
+position:relative;
+
+}
+
+.rink1 {
+position: absolute; 
+left:590px;
+top:2335px;
+font-family: 'ヒラギノ角ゴシック W2';
+color: antiquewhite;
+}
+
+
+.contents-item2 {
+position:relative;
+
+}
+.rink2 {
+position: absolute; 
+left:580px;
+top:3100px;
+font-family: 'ヒラギノ角ゴシック W2';
+}
+
+.contents-item2 {
+position:relative;
+
+}
+.rink3 {
+position: absolute; 
+left:590px;
+top:3890px;
+font-family: 'ヒラギノ角ゴシック W2';
+}
+
+.contents-item2 {
+position:relative;
+
+}
+.rink4 {
+position: absolute; 
+left:590px;
+top:4645px;
+font-family: 'ヒラギノ角ゴシック W2';
+}
+
+.section-taitle {
+font-family: "游ゴシック体 ボールド";
+font-size: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 25px;
+}
+
+
+
+
+h6{
+font-size: 12px;
+padding-left: 300px;
+padding-top: 100px;
+}
+
+
+ 
+
+		
+
+
