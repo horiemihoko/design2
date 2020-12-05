@@ -146,8 +146,8 @@ position:relative;
 
 .rink1 {
 position: absolute; 
-left:700px;
-top:2600px;
+padding-left:450px;
+padding-top:1260px;
 font-family: 'ヒラギノ角ゴシック W2';
 color: antiquewhite;
 }
