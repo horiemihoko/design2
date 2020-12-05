@@ -2,7 +2,7 @@
 /* CSS Document */
 body{
 width:100%;
-height:2600px;
+height:2800px;
 background-color: rgb(215,150,0)
 }
 
@@ -123,10 +123,9 @@ padding-left:25px;
 
 h2{
 font-size: 12px;
+padding-top: 50px;
 width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
-
-
