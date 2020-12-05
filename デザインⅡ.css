@@ -2,7 +2,7 @@
 /* CSS Document */
 /*画面サイズ*/
 body{
-width:750px;
+width:800px;
 height:4000px;
 
 
@@ -105,7 +105,7 @@ padding-left: 50px;
  
  position:absolute;
  left:250px;
- bottom: 20px;
+ bottom:100px;
  font-family:'vdl-logojrblack';
  font-size:70px;
  line-height:30px;
