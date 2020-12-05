@@ -9,93 +9,8 @@ height:4000px;
 
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:781px){
   /*画面幅が781px以上の時*/
-	.main img{
-	ext-align: center;
-	margin: 0 auto;
-	width: 100%;
-	position: static;
-
-}
-.contents-item1{
-display: flex;
-flex-direction: column;
-align-items: center;
-
-
-}
-
-.contents-item1 img{
-width: 100%;
-}
-
-.contents {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding-top:150px;
-padding-left:25px;
-}
-
-
-
-.contents-item2 {
-position:relative;
-
-}
-
-.rink1{
-position: absolute; 
-left:900px;
-top:3000px;
-font-family: 'ヒラギノ角ゴシック W2';
-color: antiquewhite;
-}
-
-
-.contents-item2 {
-position:relative;
-
-}
-.rink2 {
-position: absolute; 
-left:700px;
-top:3380px;
-font-family: 'ヒラギノ角ゴシック W2';
-}
-
-.contents-item2 {
-position:relative;
-
-}
-.rink3 {
-position: absolute; 
-left:700px;
-top:4150px;
-font-family: 'ヒラギノ角ゴシック W2';
-}
-
-.contents-item2 {
-position:relative;
-
-}
-.rink4 {
-position: absolute; 
-left:700px;
-top:4910px;
-font-family: 'ヒラギノ角ゴシック W2';
-}
-
-.section-taitle {
-font-family: "游ゴシック体 ボールド";
-font-size: 50px;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 100px 25px;
-}
-
 
 }
 
@@ -193,7 +108,7 @@ padding-left: 50px;
  top:100px;
 }
 
-@media screen and (min-width:480px){
+
 
 .main img{
 	ext-align: center;
@@ -229,7 +144,7 @@ position:relative;
 
 }
 
-.rink{
+.rink1{
 position: absolute; 
 left:700px;
 top:2600px;
@@ -280,7 +195,7 @@ align-items: center;
 padding: 100px 25px;
 }
 
-}
+
 
 
 h6{
