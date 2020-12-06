@@ -198,13 +198,27 @@ padding: 100px 25px;
 
 
 
-h6{
+.reference{
+font-size: 15px;
+color:darkgrey;
+position:relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+h1{
+font-family: "ヒラギノ角ゴシック W2"
+}
+
+
+h2{
 font-size: 12px;
 position:relative;
 display: flex;
 flex-direction: column;
 align-items: center;
 }
+
 
 
  
