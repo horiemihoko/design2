@@ -120,13 +120,27 @@ padding-left:25px;
 }
 
 
-h2{
-font-size: 12px;
-width: 100%;
-padding-top: 95px;
+.reference{
+font-size: 15px;
+position:relative;
 display: flex;
 flex-direction: column;
 align-items: center;
+}
+h1{
+font-family: "ヒラギノ角ゴシック";
+font-size: 18px;
+padding-top:15px;
+}
+
+
+h2{
+font-size: 12px;
+position:relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top:50px;
 }
 
 
