@@ -8,6 +8,7 @@ background-color:rgb(50,140,45)
 /*ヘッダー（東西南北）*/
 .header ul{
  list-style:none; 
+ padding-right:60px;
  padding-top: 10px;
  padding-bottom:100px; 
  float:right;
@@ -84,24 +85,29 @@ padding-left: 50px;
 }
 
 
+
 /*メイン（トップpと揃える）*/
 
-.main{
-width: 100%;
+.main img{
+width:100%;
 display: flex;
 flex-direction: column;
-align-items: center;
+text-align : center;
+padding:25px;
 }
 .taitle-contents{
 position: relative;
+text-align : center;
+width:100%;
 top:50px;
-left:25px;
+padding-left:25px;
+
 
 }
 
 
 .contents-item1{
-width: 100%;
+width:100%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -111,13 +117,14 @@ padding-left:25px;
 }
 
 .contents-item{
-width: 100%;
+width:100%;
 display: flex;
 flex-direction: column;
 align-items: center;
 padding-top:20px;
 padding-left:25px;
 }
+
 
 .reference{
 font-size: 15px;
@@ -129,6 +136,7 @@ align-items: center;
 h1{
 font-family: "ヒラギノ角ゴシック";
 font-size: 18px;
+padding-top:20px;
 }
 
 
@@ -139,6 +147,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding-top:50px;
+padding-bottom:35px;
 
 }
 
