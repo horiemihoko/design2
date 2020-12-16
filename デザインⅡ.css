@@ -2,22 +2,21 @@
 /* CSS Document */
 /*画面サイズ*/
 body{
-width:750px;
 width:100%;
 height:4000px;
 
 
 }
 /*ヘッダー（東西南北）*/
-.header-list{
+.header ul{
  list-style:none; 
- padding-right:30px;
- padding-top:30px;
+ padding-right:60px;
+ padding-top: 10px;
  padding-bottom:100px; 
  float:right;
- display: flex;
+ display:flex;
  flex-wrap:wrap;
-
+ width:30%;
 }
 
 .header li {
@@ -69,11 +68,12 @@ padding-left: 50px;
 }
 
 /*homeボタン*/
-.header-logo{
+.header-logo {
  
- float:left;
+ width:10%;
  padding-left:25px; 
- padding-top:30px;
+ padding-top: 20px;
+  float:left;
 
 
 }
@@ -89,7 +89,7 @@ padding-left: 50px;
 
 
 
-/*フッター*/
+
 
 /*タイトル装飾*/
 .taitle-contents img{
@@ -127,6 +127,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding-top:150px;
+width:100%;
 
 }
 
@@ -139,8 +140,8 @@ width: 100%;
 
 .rink1{
 position: absolute; 
-left:700px;
-top:2630px;
+left:680px;
+top:2540px;
 font-family: 'ヒラギノ角ゴシック W2';
 color: antiquewhite;
 }
@@ -152,8 +153,8 @@ position:relative;
 }
 .rink2 {
 position: absolute; 
-left:700px;
-top:3400px;
+left:680px;
+top:3320px;
 font-family: 'ヒラギノ角ゴシック W2';
 }
 
@@ -163,8 +164,8 @@ position:relative;
 }
 .rink3 {
 position: absolute; 
-left:700px;
-top:4170px;
+left:680px;
+top:4110px;
 font-family: 'ヒラギノ角ゴシック W2';
 }
 
@@ -174,8 +175,8 @@ position:relative;
 }
 .rink4 {
 position: absolute; 
-left:700px;
-top:4930px;
+left:680px;
+top:4860px;
 font-family: 'ヒラギノ角ゴシック W2';
 }
 
@@ -203,6 +204,7 @@ h1{
 font-family: "ヒラギノ角ゴシック";
 font-size:18px;
 }
+
 
 h2{
 font-size: 12px;
