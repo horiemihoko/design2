@@ -8,7 +8,7 @@ background-color:rgb(185,80,35);
 
 }
 /*ヘッダー（東西南北）*/
-.header{
+.header-list{
  list-style:none; 
  padding-top: 10px;
  padding-bottom:100px; 
