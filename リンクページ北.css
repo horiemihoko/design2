@@ -2,10 +2,18 @@
 /* CSS Document */
 body{
 width:100%;
-width:750px;
 height:2800px;
 background-color:rgb(185,80,35);
 }
+
+}
+@charset "UTF-8";
+/* CSS Document */
+/*画面サイズ*/
+body{
+width:100%;
+height:4000px;
+
 
 }
 /*ヘッダー（東西南北）*/
@@ -17,12 +25,13 @@ background-color:rgb(185,80,35);
  float:right;
  display:flex;
  flex-wrap:wrap;
- width:30%;
+ width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+ padding:10px;/*←画像の左右に5pxの余白を入れる場合*/
 }
 
 .header li {
 	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
-	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	padding:10px;/*←画像の左右に5pxの余白を入れる場合*/
 	box-sizing:border-box;
 }
 .header li img {
@@ -31,6 +40,10 @@ background-color:rgb(185,80,35);
 }
 
 
+
+.header-list a{
+padding-left: 50px;	
+}
 
 /* マウスオーバー時 */
 .rink-kita:hover, .rink-kita:focus, .rink-kita:active {
@@ -66,11 +79,11 @@ background-color:rgb(185,80,35);
 
 /*homeボタン*/
 .header-logo {
- 
- width:10%;
- padding-left:25px; 
+ padding-left:50px; 
  padding-top: 20px;
-  float:left;
+ padding-bottom: 50px;
+ float:left;
+ width:10%;
 
 
 }
@@ -82,9 +95,6 @@ background-color:rgb(185,80,35);
     cursor: pointer;
 
 }
-
-
-
 
 
 /*メイン（トップpと揃える）*/
