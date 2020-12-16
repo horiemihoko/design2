@@ -32,10 +32,6 @@ background-color:rgb(185,80,35);
 
 
 
-.header-list a{
-padding-left: 50px;	
-}
-
 /* マウスオーバー時 */
 .rink-kita:hover, .rink-kita:focus, .rink-kita:active {
     -webkit-transform: scale(1.1);
