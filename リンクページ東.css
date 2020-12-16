@@ -6,14 +6,15 @@ height:2800px;
 background-color:rgb(50,120,170)
 }
 /*ヘッダー（東西南北）*/
-.header-list {
+.header ul{
  list-style:none; 
- padding-right:30px;
- padding-top:30px;
+ padding-right:60px;
+ padding-top: 10px;
  padding-bottom:100px; 
  float:right;
- display: flex;
+ display:flex;
  flex-wrap:wrap;
+ width:30%;
 }
 
 .header li {
@@ -65,11 +66,12 @@ padding-left: 50px;
 }
 
 /*homeボタン*/
-.header-logo{
+.header-logo {
  
- float:left;
+ width:10%;
  padding-left:25px; 
- padding-top:30px;
+ padding-top: 20px;
+  float:left;
 
 
 }
@@ -81,7 +83,6 @@ padding-left: 50px;
     cursor: pointer;
 
 }
-
 
 
 /*メイン（トップpと揃える）*/
@@ -142,5 +143,6 @@ flex-direction: column;
 align-items: center;
 padding-top:50px;
 }
+
 
 
