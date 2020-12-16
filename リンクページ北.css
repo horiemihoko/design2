@@ -8,6 +8,15 @@ width:100%;
 background-color:rgb(185,80,35);
 
 }
+@charset "UTF-8";
+/* CSS Document */
+/*画面サイズ*/
+body{
+width:100%;
+height:4000px;
+
+
+}
 /*ヘッダー（東西南北）*/
 .header ul{
  list-style:none; 
