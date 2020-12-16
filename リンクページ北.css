@@ -31,7 +31,7 @@ height:4000px;
 
 .header li {
 	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
-	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	padding:10px;/*←画像の左右に10pxの余白を入れる場合*/
 	box-sizing:border-box;
 }
 .header li img {
